@@ -30,6 +30,7 @@ The steps above are all we need to capture the Timestamp and Rename the file wit
 PART 2: 
 Capturing additional fields:
 In this section we will capture the Description, AccountName and Phone Details.
+First add these field in the request.xlsx file
 1. Under the SaaSAutomation Workflow Use the record function to capture the additional 3 feilds and add them under the Web Sequence.
 2. Add 3 additional arguments to cover the 3 additional field in the In direction.
 3. Replace the type fields with the newly defined arguments.
