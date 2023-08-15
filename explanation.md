@@ -21,8 +21,9 @@ Next we create the renaming function.
         - MethodName: RenameFile
         - Target Object: Define 2 parameters as OldFile and NewFile
 
-The steps above are all we need to capture the Timestamp and Rename the file with the timestamp concatenated. Lastly we need to intergrate this workflow with Main.xaml
+The steps above are all we need to capture the Timestamp and Rename the file with the timestamp concatenated. To have time is separated by - due to naming conventions that do not allow use of ":" and date is defined in long form due to same naming conventions that do not allow use of "/"
 
+Lastly we need to intergrate this workflow with Main.xaml
 1. Just before moving the Request file to the processed folder. Create a Invoke Workflow activity and locate the and import Capture-TimeStamp.xaml file
 2. Modify the Move file activity to capture all documents in the folder as the name of our excel file has changed from what was initially defined as Request.xlsx using "*"
 
